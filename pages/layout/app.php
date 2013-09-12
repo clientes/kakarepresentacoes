@@ -20,7 +20,9 @@
     <div class="container">
         <div class="row">
             <div class="text-center col-md-3">
-                <img src="http://i.imm.io/1gy6t.png" class="img-polaroid" width="75%">
+                <a href="/home">
+                    <img src="http://i.imm.io/1gy6t.png" class="img-polaroid" width="75%">
+                </a>
             </div>
             <div class="col-md-9">
                 <div class="navbar navbar-default">
@@ -33,22 +35,22 @@
                         <div class="collapse navbar-collapse">
                             <ul class="nav navbar-nav">
                                 <li class="active">
-                                    <a href="#"><i class="icon-home"></i> Home</a>
+                                    <a href="/home"><i class="icon-home"></i> Home</a>
                                 </li>
                                 <li>
-                                    <a href="#"><i class="icon-group"></i> Empresa</a>
+                                    <a href="/empresa"><i class="icon-group"></i> Empresa</a>
                                 </li>
                                 <li>
-                                    <a href="#"><i class="icon-briefcase"></i> Produtos</a>
+                                    <a href="/produtos"><i class="icon-briefcase"></i> Produtos</a>
                                 </li>
                                 <li>
-                                    <a href="#"><i class="icon-glass"></i> Clientes e Amigos</a>
+                                    <a href="/clientes-amigos"><i class="icon-glass"></i> Clientes e Amigos</a>
                                 </li>
                                 <li>
-                                    <a href="#"><i class="icon-file-text"></i> Or&ccedil;amento</a>
+                                    <a href="/contato"><i class="icon-file-text"></i> Or&ccedil;amento</a>
                                 </li>
                                 <li>
-                                    <a href="#"><i class="icon-envelope-alt"></i> Contato</a>
+                                    <a href="/contato"><i class="icon-envelope-alt"></i> Contato</a>
                                 </li>
                             </ul>
                             <h4 class="clearfix text-muted pull-right" style="margin-right: 11px;"><i class="icon-phone icon-large"></i> (44) 9904-3130</h4>
@@ -56,7 +58,9 @@
                     </div>
                 </div>
                 <h2>Representante de acess&oacute;rios para confec&ccedil;&otilde;es</h2>
-                <a class="btn pull-right btn-warning btn-lg" style="color:black">            <i class="icon-calendar icon-4x"></i>            <br>            <span style="text-transform:uppercase">Agende uma Visita&nbsp;<i class="icon-reply-all icon-flip-horizontal"></i></span><br></a>
+                <a class="btn pull-right btn-warning btn-lg" style="color:black" href="/contato">
+                <i class="icon-calendar icon-4x"></i><br>
+                <span style="text-transform:uppercase">Agende uma Visita&nbsp;<i class="icon-reply-all icon-flip-horizontal"></i></span><br></a>
                 <p class="text-muted">etiquetas bordadas e<i>&nbsp;</i>c&oacute;s externo, metais, brindes e impressos gr&aacute;ficos</p>
                 <a class="btn btn-danger btn-lg">Conhe&ccedil;a nossos produtos</a>
             </div>
@@ -75,9 +79,21 @@
 
 <footer>
     <div class="container">
-        <img src="http://i.imm.io/1gxuM.png" width="60" class="pull-right">
-        <p class="text-center">Kaka Representa&ccedil;&otilde;es - contato: (44) 9904-3130 ou (44) 8812-6912 - <a href=" kakarepresentacoes@hotmail.com">kakarepresentacoes@hotmail.com</a></p>
-        <p class="text-center"><i class="icon-pinterest-sign icon-3x"></i> <i class="icon-youtube-sign icon-3x"></i> <i class="icon-google-plus-sign icon-3x"></i> <i class="icon-instagram icon-3x"></i> <i class="icon-flickr icon-3x"></i> <i class="icon-twitter-sign icon-3x"></i> <i class="icon-facebook-sign icon-3x"></i></p>
+        <a href="/home">
+            <img src="http://i.imm.io/1gxuM.png" width="60" class="pull-right">
+        </a>
+
+        <p class="text-center">Kaka Representa&ccedil;&otilde;es - contato: (44) 9904-3130 ou (44) 8812-6912 - <a href="mailto:kakarepresentacoes@hotmail.com">kakarepresentacoes@hotmail.com</a></p>
+
+        <p class="text-center">
+            <i class="icon-pinterest-sign icon-3x"></i>
+            <i class="icon-youtube-sign icon-3x"></i>
+            <i class="icon-google-plus-sign icon-3x"></i>
+            <i class="icon-instagram icon-3x"></i>
+            <i class="icon-flickr icon-3x"></i>
+            <i class="icon-twitter-sign icon-3x"></i>
+            <i class="icon-facebook-sign icon-3x"></i>
+        </p>
     </div>
 </footer>
 </body>
