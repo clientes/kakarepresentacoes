@@ -29,7 +29,7 @@
     <div class="col-md-4">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="text-center"><i class="icon-cog pull-left"></i>&nbsp;Metais</h3>
+                <h3 class="text-center"><i class="icon-cog pull-left"></i> Metais</h3>
             </div>
             <div class="panel-body">
                 <img src="http://i.imm.io/1gxbX.jpeg" width="100%">
