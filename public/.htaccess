@@ -1,0 +1,43 @@
+AddType text/cache-manifest .appcache
+
+<IfModule mod_rewrite.c>
+    Options -MultiViews
+    RewriteEngine On
+
+    # Determine the RewriteBase automatically and set it as environment variable.
+    # Used with Apache virtual alias or subdirectory project.
+    RewriteCond %{REQUEST_URI}::$1 ^(/.+)/(.*)::\2$
+    RewriteRule ^(.*) - [E=BASE:%1]
+
+    # redirect /index.php to /
+    RewriteCond %{ENV:REDIRECT_STATUS} ^$
+    RewriteRule ^index\.php(/(.*)|$) %{ENV:BASE}/$2 [R=301,L]
+
+    # If the requested filename exists, simply serve it.
+    # We only want to let Apache serve files and not directories.
+    RewriteCond %{REQUEST_FILENAME} -f
+    RewriteRule .? - [L]
+
+    # Rewrite all other queries to the front controller.
+    RewriteRule .? %{ENV:BASE}/index.php [L]
+
+    # do the same above for non virtual alias or subdirectory
+    #RewriteCond %{REQUEST_FILENAME} !-f
+    #RewriteRule ^ index.php [L]
+</IfModule>
+
+<IfModule mod_php5.c>
+    php_flag display_errors On
+    php_flag allow_url_fopen On
+    php_flag short_open_tag On
+    php_flag file_uploads On
+    php_flag safe_mode Off
+    php_flag html_errors Off
+
+    php_value date.timezone America/Sao_Paulo
+    php_value default_charset UTF-8
+    php_value post_max_size 100M
+    php_value upload_max_filesize 100M
+    php_value max_file_uploads 500
+    php_value memory_limit -1
+</IfModule>
