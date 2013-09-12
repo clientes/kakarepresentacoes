@@ -1,7 +1,5 @@
 <!doctype html>
-
 <html>
-
 <head>
     <title>KaKa Representa&ccedil;&otilde;es</title>
     <meta charset="utf-8">
@@ -24,8 +22,8 @@
 <div>
     <div class="container">
         <div class="row">
-            <div class="col-md-3">
-                <img src="http://i.imm.io/1gy6t.png" class="img-polaroid" width="100%">
+            <div class="text-center col-md-3">
+                <img src="http://i.imm.io/1gy6t.png" class="img-polaroid" width="75%">
             </div>
             <div class="col-md-9">
                 <div class="navbar navbar-default">
@@ -61,7 +59,7 @@
                     </div>
                 </div>
                 <h2>Representante de acess&oacute;rios para confec&ccedil;&otilde;es</h2>
-                <a class="btn pull-right btn-default btn-lg">Agende uma Visita<br><i class="icon-book icon-4x"></i><br></a>
+                <a class="btn pull-right btn-warning btn-lg" style="color:black">            <i class="icon-calendar icon-4x"></i>            <br>            <span style="text-transform:uppercase">Agende uma Visita&nbsp;<i class="icon-reply-all icon-flip-horizontal"></i></span><br></a>
                 <p class="text-muted">etiquetas bordadas e<i>&nbsp;</i>c&oacute;s externo, metais, brindes e impressos gr&aacute;ficos</p>
                 <a class="btn btn-danger btn-lg">Conhe&ccedil;a nossos produtos</a>
             </div>
