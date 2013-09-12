@@ -1,0 +1,336 @@
+[
+    {
+        "name": "psr/log",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/log.git",
+            "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/log/zipball/fe0936ee26643249e916849d48e3a51d5f5e278b",
+            "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b",
+            "shasum": ""
+        },
+        "time": "2012-12-21 11:40:51",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Psr\\Log\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for logging libraries",
+        "keywords": [
+            "log",
+            "psr",
+            "psr-3"
+        ]
+    },
+    {
+        "name": "analog/analog",
+        "version": "1.0.3-stable",
+        "version_normalized": "1.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jbroadway/analog.git",
+            "reference": "70bb491508ae50eabbd27022a473fca1ff2d07cf"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/jbroadway/analog/zipball/70bb491508ae50eabbd27022a473fca1ff2d07cf",
+            "reference": "70bb491508ae50eabbd27022a473fca1ff2d07cf",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.2",
+            "psr/log": "1.*"
+        },
+        "time": "2013-04-22 14:07:01",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Analog": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Johnny Broadway",
+                "email": "johnny@johnnybroadway.com",
+                "homepage": "http://www.johnnybroadway.com/",
+                "role": "Main Developer"
+            }
+        ],
+        "description": "PHP 5.3+ micro logging class that can be extended via closures. Includes several pre-built handlers including file, mail, syslog, HTTP post, and MongoDB.",
+        "homepage": "https://github.com/jbroadway/analog",
+        "keywords": [
+            "alerts",
+            "debug",
+            "debugging",
+            "error",
+            "log",
+            "logger",
+            "logging",
+            "syslog"
+        ]
+    },
+    {
+        "name": "filp/whoops",
+        "version": "1.0.8",
+        "version_normalized": "1.0.8.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/filp/whoops.git",
+            "reference": "d086796e7cfb59f532d07738e5e4cf0ac3c6deb8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/filp/whoops/zipball/d086796e7cfb59f532d07738e5e4cf0ac3c6deb8",
+            "reference": "d086796e7cfb59f532d07738e5e4cf0ac3c6deb8",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "mockery/mockery": "dev-master",
+            "silex/silex": "1.0.*@dev"
+        },
+        "time": "2013-08-06 20:39:59",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Whoops": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Filipe Dobreira",
+                "homepage": "https://github.com/filp",
+                "role": "Developer"
+            }
+        ],
+        "description": "php error handling for cool kids",
+        "homepage": "https://github.com/filp/whoops",
+        "keywords": [
+            "error",
+            "exception",
+            "handling",
+            "library",
+            "silex-provider",
+            "whoops",
+            "zf2"
+        ]
+    },
+    {
+        "name": "sinergia/php-forward-compat",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sinergia/php-forward-compat.git",
+            "reference": "9228e862a1b3df9b9eabf5231dfdd3ba1a1d69b2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sinergia/php-forward-compat/zipball/9228e862a1b3df9b9eabf5231dfdd3ba1a1d69b2",
+            "reference": "9228e862a1b3df9b9eabf5231dfdd3ba1a1d69b2",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.7"
+        },
+        "suggest": {
+            "ircmaxell/password-compat": "PHP 5.5 password_* functions",
+            "rhumsaa/array_column": "PHP 5.5 array_column function"
+        },
+        "time": "2013-08-26 05:01:21",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "lib/version_check.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Marcos Neves",
+                "email": "marcos.neves@gmail.com",
+                "homepage": "http://www.sinergia.mobi/"
+            }
+        ],
+        "description": "Improve PHP 5.3+ with features from PHP 5.4, 5.5 and beyond.",
+        "homepage": "https://github.com/sinergia/php-forward-compat",
+        "keywords": [
+            "5.4",
+            "5.5",
+            "backward",
+            "compatibility",
+            "forward",
+            "php"
+        ]
+    },
+    {
+        "name": "sinergia/sinergia",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sinergia/sinergia.git",
+            "reference": "50f60488226488e0022fdb1397d5d644068bef68"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sinergia/sinergia/zipball/50f60488226488e0022fdb1397d5d644068bef68",
+            "reference": "50f60488226488e0022fdb1397d5d644068bef68",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.2"
+        },
+        "time": "2013-08-15 13:47:53",
+        "type": "framework",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Sinergia\\Sinergia\\": ""
+            }
+        },
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Marcos Neves",
+                "homepage": "http://www.sinergia.mobi/"
+            }
+        ],
+        "description": "Sinergia Framework",
+        "keywords": [
+            "framework",
+            "mvc",
+            "sinergia"
+        ],
+        "support": {
+            "source": "https://github.com/sinergia/sinergia/tree/master",
+            "issues": "https://github.com/sinergia/sinergia/issues"
+        }
+    },
+    {
+        "name": "sinergia/info",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sinergia/info.git",
+            "reference": "38c3f21eb894f216806fb8aa48b1ea5e9b14626e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sinergia/info/zipball/38c3f21eb894f216806fb8aa48b1ea5e9b14626e",
+            "reference": "38c3f21eb894f216806fb8aa48b1ea5e9b14626e",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.2"
+        },
+        "time": "2013-08-26 04:52:16",
+        "type": "tool",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Sinergia\\Info\\": ""
+            }
+        },
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Marcos Neves",
+                "homepage": "http://www.sinergia.mobi/"
+            }
+        ],
+        "description": "PHP Info Plus",
+        "keywords": [
+            "info",
+            "php"
+        ],
+        "support": {
+            "source": "https://github.com/sinergia/info/tree/master",
+            "issues": "https://github.com/sinergia/info/issues"
+        }
+    },
+    {
+        "name": "sinergia/gd",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sinergia/gd.git",
+            "reference": "91d8d31be027a737a7362b5008f04986691f31d7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sinergia/gd/zipball/91d8d31be027a737a7362b5008f04986691f31d7",
+            "reference": "91d8d31be027a737a7362b5008f04986691f31d7",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.2"
+        },
+        "time": "2013-09-10 21:41:18",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Sinergia\\Gd\\": ""
+            }
+        },
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Marcos Neves",
+                "homepage": "http://www.sinergia.mobi/"
+            }
+        ],
+        "description": "GD Wrapper",
+        "keywords": [
+            "gd",
+            "image",
+            "thumbnail"
+        ],
+        "support": {
+            "source": "https://github.com/sinergia/gd/tree/master",
+            "issues": "https://github.com/sinergia/gd/issues"
+        }
+    }
+]

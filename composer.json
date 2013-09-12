@@ -1,0 +1,56 @@
+{
+    "name": "clientes/kakarepresentacoes",
+    "description": "Projeto",
+    "license": "proprietary",
+    "type": "project",
+    "minimum-stability": "dev",
+
+    "authors": [
+        {
+            "name": "Marcos Neves",
+            "email": "marcos.neves@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-0": {
+            "": "php/lib/"
+        },
+        "files": []
+    },
+
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/sinergia/info.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sinergia/sinergia.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sinergia/gd.git"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.3.7",
+        "analog/analog": "1.0.3",
+        "filp/whoops": "1.0.8",
+        "sinergia/php-forward-compat": "dev-master",
+        "sinergia/sinergia": "dev-master",
+        "sinergia/info": "dev-master",
+        "sinergia/gd": "dev-master"
+    },
+
+    "config": {
+        "preferred-install": "dist",
+        "vendor-dir": "php/vendor"
+    },
+
+    "scripts": {
+        "post-update-cmd":  ["echo [NOTICE] Deleting all .git dirs inside vendor", "rm -rf php/vendor/**/**/.git"],
+        "post-install-cmd": ["echo [NOTICE] Deleting all .git dirs inside vendor", "rm -rf php/vendor/**/**/.git"]
+    }
+}

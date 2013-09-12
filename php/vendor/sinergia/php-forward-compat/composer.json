@@ -1,0 +1,25 @@
+{
+	"name": "sinergia/php-forward-compat",
+	"description": "Improve PHP 5.3+ with features from PHP 5.4, 5.5 and beyond.",
+	"version": "0.0.0",
+	"keywords": ["php", "compatibility", "forward", "backward", "5.4", "5.5"],
+	"homepage": "https://github.com/sinergia/php-forward-compat",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Marcos Neves",
+			"email": "marcos.neves@gmail.com",
+			"homepage": "http://www.sinergia.mobi/"
+		}
+	],
+	"autoload": {
+		"files": ["lib/version_check.php"]
+	},
+	"require": {
+		"php": ">=5.3.7"
+	},
+	"suggest": {
+        "ircmaxell/password-compat": "PHP 5.5 password_* functions",
+        "rhumsaa/array_column": "PHP 5.5 array_column function"
+    }
+}
