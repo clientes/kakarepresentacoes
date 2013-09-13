@@ -3,3 +3,8 @@
     background-size: auto;
     background-repeat: repeat repeat;
 }
+
+.link-off a, a.link-off {
+    color:inherit;
+    text-decoration: none;
+}

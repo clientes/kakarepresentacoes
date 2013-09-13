@@ -62,7 +62,7 @@
                 <i class="icon-calendar icon-4x"></i><br>
                 <span style="text-transform:uppercase">Agende uma Visita&nbsp;<i class="icon-reply-all icon-flip-horizontal"></i></span><br></a>
                 <p class="text-muted">etiquetas bordadas e<i>&nbsp;</i>c&oacute;s externo, metais, brindes e impressos gr&aacute;ficos</p>
-                <a class="btn btn-danger btn-lg">Conhe&ccedil;a nossos produtos</a>
+                <a class="btn btn-danger btn-lg" href="/produtos">Conhe&ccedil;a nossos produtos</a>
             </div>
         </div>
         <hr>
@@ -85,14 +85,14 @@
 
         <p class="text-center">Kaka Representa&ccedil;&otilde;es - contato: (44) 9904-3130 ou (44) 8812-6912 - <a href="mailto:kakarepresentacoes@hotmail.com">kakarepresentacoes@hotmail.com</a></p>
 
-        <p class="text-center">
-            <i class="icon-pinterest-sign icon-3x"></i>
-            <i class="icon-youtube-sign icon-3x"></i>
-            <i class="icon-google-plus-sign icon-3x"></i>
-            <i class="icon-instagram icon-3x"></i>
-            <i class="icon-flickr icon-3x"></i>
-            <i class="icon-twitter-sign icon-3x"></i>
-            <i class="icon-facebook-sign icon-3x"></i>
+        <p class="text-center link-off">
+            <a href="#printerest"> <i class="icon-pinterest-sign icon-3x"></i></a>
+            <a href="#youtube"> <i class="icon-youtube-sign icon-3x"></i></a>
+            <a href="#google+"> <i class="icon-google-plus-sign icon-3x"></i></a>
+            <a href="#instagram"> <i class="icon-instagram icon-3x"></i></a>
+            <a href="#flickr"> <i class="icon-flickr icon-3x"></i></a>
+            <a href="#twitter"> <i class="icon-twitter-sign icon-3x"></i></a>
+            <a href="#facebook"> <i class="icon-facebook-sign icon-3x"></i></a>
         </p>
     </div>
 </footer>
