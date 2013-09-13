@@ -17,13 +17,13 @@
     </div>
 
     <div class="col-md-4">
-        <a href="/produto/metais">
+        <a href="/produto/etiquetas-cos-externo">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h3 class="text-center"><i class="icon-cog pull-left"></i> Metais</h3>
+                    <h3 class="text-center"><i class="icon-tags pull-left"></i>&nbsp;Etiquetas C&oacute;s Externo</h3>
                 </div>
                 <div class="panel-body">
-                    <img src="http://i.imm.io/1gxbX.jpeg" width="100%">
+                    <img src="http://i.imm.io/1gxg2.jpeg" width="100%">
                 </div>
                 <div class="panel-footer text-right">
                     <span class="btn btn-warning btn-sm">Veja mais&nbsp;<i class="icon-mail-forward"></i></span>
@@ -33,13 +33,13 @@
     </div>
 
     <div class="col-md-4">
-        <a href="/produto/etiquetas-cos-externo">
+        <a href="/produto/metais">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h3 class="text-center"><i class="icon-tags pull-left"></i>&nbsp;Etiquetas C&oacute;s Externo</h3>
+                    <h3 class="text-center"><i class="icon-cog pull-left"></i> Metais</h3>
                 </div>
                 <div class="panel-body">
-                    <img src="http://i.imm.io/1gxg2.jpeg" width="100%">
+                    <img src="http://i.imm.io/1gxbX.jpeg" width="100%">
                 </div>
                 <div class="panel-footer text-right">
                     <span class="btn btn-warning btn-sm">Veja mais&nbsp;<i class="icon-mail-forward"></i></span>
