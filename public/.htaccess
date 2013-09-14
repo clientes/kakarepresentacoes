@@ -1,4 +1,5 @@
 AddType text/cache-manifest .appcache
+DirectoryIndex index.html index.php
 
 <IfModule mod_rewrite.c>
     Options -MultiViews
@@ -17,6 +18,9 @@ AddType text/cache-manifest .appcache
     # We only want to let Apache serve files and not directories.
     RewriteCond %{REQUEST_FILENAME} -f
     RewriteRule .? - [L]
+
+    # redirect root para /index.html
+    RewriteRule ^$ /index.html [L]
 
     # Rewrite all other queries to the front controller.
     RewriteRule .? %{ENV:BASE}/index.php [L]
