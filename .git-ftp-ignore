@@ -16,6 +16,8 @@ php/bin/.*
 arquivos/
 teste\.php
 README\.txt
+README\.md
+LICENSE
 TODO\.txt
 cli-server\.php
 .*/tests/.*
@@ -23,3 +25,5 @@ cli-server\.php
 .*/Tests/.*
 .*/Test/.*
 /tmp/.*
+phpunit\.xml
+phpunit\.xml\.dist
