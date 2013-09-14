@@ -294,18 +294,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/sinergia/gd.git",
-            "reference": "91d8d31be027a737a7362b5008f04986691f31d7"
+            "reference": "f9a4360932c7a5ea79939491769730711f38ea3c"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/sinergia/gd/zipball/91d8d31be027a737a7362b5008f04986691f31d7",
-            "reference": "91d8d31be027a737a7362b5008f04986691f31d7",
+            "url": "https://api.github.com/repos/sinergia/gd/zipball/f9a4360932c7a5ea79939491769730711f38ea3c",
+            "reference": "f9a4360932c7a5ea79939491769730711f38ea3c",
             "shasum": ""
         },
         "require": {
             "php": ">=5.3.2"
         },
-        "time": "2013-09-10 21:41:18",
+        "time": "2013-09-14 21:59:17",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
