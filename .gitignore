@@ -2,3 +2,4 @@ _src
 *.phar
 /composer.lock
 /public/editor/
+/public/t/
